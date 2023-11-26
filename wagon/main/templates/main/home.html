@@ -1,0 +1,23 @@
+{% extends 'main/layout.html'%}
+
+{%block title%}Home{%endblock%}
+
+{%block content%}
+    <div class="features">
+        <h1>{{name}}</h1>
+        <h2><i class="fa-solid fa-pencil"></i>{{problem}}</h2>
+        <p> {{intro_1}} </p>
+        <p> {{intro_2}} </p>
+        <p> {{intro_3}} </p>
+        <p> {{intro_4}} </p>
+        <p> {{intro_5}} </p>
+        <h2><i class="fa-solid fa-crosshairs"></i>{{aim}}</h2>
+        <p>{{aim_1}}</p>
+        <h2><i class="fa-solid fa-thumbtack"></i>{{task}}</h2>
+        <p>{{task_1}}</p>
+        <h2><i class="fa-solid fa-list-check"></i>{{form_task}}</h2>
+        <p>{{form_task_1}}</p>
+        <p>{{form_task_2}}</p>
+        <p>{{form_task_3}}</p>
+    </div>
+{%endblock%}

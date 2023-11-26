@@ -1,0 +1,67 @@
+body{
+    background-color: #EBF3E8;
+}
+
+aside{
+    float: left;
+    background: #B2C8BA;
+    width: 19%;
+    padding: 3%;
+    height: 100vh;
+    color: #2F2A25;
+    border-right:5px solid #D2E3C8;
+}
+
+aside img {
+    width: calc(20px + (30 - 20) * ((100vw - 500px) / (1920 - 500)));
+    float: left;
+}
+aside .logo{
+    font-size: calc(15px + (30 - 15) * ((100vw - 500px) / (1920 - 500)));
+    margin-left: calc(10px + (15 - 10) * ((100vw - 500px) / (1920 - 500)));
+    font-weight: bold;
+}
+
+aside ul{
+    margin-top: 50px;
+    list-style: none;
+}
+
+aside ul li {
+    color: #2F2A25;
+    font-size: calc(13px + (20 - 13) * ((100vw - 500px) / (1920 - 500)));
+    display: block;
+    margin-top: 20px;
+    transition: transform .3s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #191714;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.features {
+    float: center;
+    color: #2F2A25;
+    text-align: left;
+    width: 85%;
+}
+
+.features h1{
+    font-size: calc(25px + (30 - 25) * ((100vw - 500px) / (1920 - 500)));
+    max-width: calc(1000px + (1300 - 1000) * ((100vw - 500px) / (1920 - 500)));
+    color: #2F2A25;
+}
+
+.features h2{
+    margin-top: 40px;
+    font-size: calc(20px + (25 - 20) * ((100vw - 500px) / (1920 - 500)));
+    color: #2F2A25;
+}
+
+.features p {
+    margin-top: calc(10px + (20 - 10) * ((100vw - 500px) / (1920 - 500)));
+    max-width: calc(1000px + (1300 - 1000) * ((100vw - 500px) / (1920 - 500)));
+    font-size: calc(10px + (15 - 10) * ((100vw - 500px) / (1920 - 500)));
+}
